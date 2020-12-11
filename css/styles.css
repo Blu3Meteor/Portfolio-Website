@@ -1,0 +1,82 @@
+/* Selectors are sorted by type, and then alphabetical order*/
+
+/******************TAG SELECTORS******************/
+body {
+  color: #ebecf1;
+  text-align: center;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+h1, h2 {
+  color: #19d3da;
+  line-height: 1.5
+}
+
+h3 {
+  color: #19d3da;
+}
+
+h4 {
+  color: #41aea9;
+}
+
+/******************ClASS SELECTORS******************/
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-inner {
+  margin-bottom: 50px;
+}
+
+#title .container-fluid {
+  padding: 7% 15% 5%;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.interest-img {
+  width: 20%;
+  margin: 5%;
+}
+
+.interest-img:hover {
+  width: 25%;
+}
+
+.project-image {
+  width: 60%;
+}
+
+/******************ID SELECTORS******************/
+#title {
+  background-color: #212121;
+}
+
+#about-me {
+  padding: 2% 0 3%;
+  background-color: #222831;
+}
+
+#projects {
+  padding: 3% 0;
+  background-color: #393e46;
+}
+
+#footer {
+  background-color: #686d76;
+  padding: 20px 0 0;
+}
