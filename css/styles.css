@@ -1,5 +1,9 @@
 /* Selectors are sorted by type, and then alphabetical order*/
 :root {
+  --dark: #212121;
+  --dark2: #222831;
+  --light: #393e46;
+  --light2: #686d76;
   --teal: #008080;
   --cyan: #19d3da;
 }
@@ -36,6 +40,10 @@ h4 {
   font-family: 'Space Mono', monospace;
 }
 
+h1, h2, h3, h4 {
+  padding-bottom: 1%;
+}
+
 /******************ClASS SELECTORS******************/
 
 .card-header {
@@ -57,7 +65,7 @@ h4 {
 #title .container-fluid {
   padding: 20% 15% 20%;
   height: 100vh;
-  max-height: 450px;
+  max-height: 600px;
 }
 
 #id .container-fluid p {
@@ -109,20 +117,20 @@ h4 {
 
 /******************ID SELECTORS******************/
 #title {
-  background-color: #212121;
+  background-color: var(--dark);
 }
 
 #about-me {
   padding: 2% 0 3%;
-  background-color: #222831;
+  background-color: var(--dark2);
 }
 
 #projects {
   padding: 3% 0;
-  background-color: #393e46;
+  background-color: var(--light);
 }
 
 #footer {
-  background-color: #686d76;
+  background-color: var(--light2);
   padding: 20px 0 0;
 }
