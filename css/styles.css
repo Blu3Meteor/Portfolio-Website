@@ -57,6 +57,7 @@ h4 {
 #title .container-fluid {
   padding: 20% 15% 20%;
   height: 100vh;
+  max-height: 450px;
 }
 
 #id .container-fluid p {
