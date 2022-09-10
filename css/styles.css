@@ -10,6 +10,7 @@
 
 /******************TAG SELECTORS******************/
 body {
+  /* font-family: 'Open Sans', sans-serif; */
   color: #ebecf1;
   text-align: center;
 }
@@ -36,7 +37,7 @@ h3 {
 }
 
 h4 {
-  color: #41aea9;
+  color: var(--teal);
   font-family: 'Space Mono', monospace;
 }
 
@@ -120,13 +121,13 @@ h1, h2, h3, h4 {
   background-color: var(--dark);
 }
 
-#about-me {
-  padding: 2% 0 3%;
+#projects {
+  padding: 3% 0;
   background-color: var(--dark2);
 }
 
-#projects {
-  padding: 3% 0;
+#about-me {
+  padding: 2% 0 3%;
   background-color: var(--light);
 }
 
