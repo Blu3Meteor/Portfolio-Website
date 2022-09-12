@@ -25,14 +25,9 @@ a:hover {
   color: #eaf6f6;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: var(--cyan);
   line-height: 1.5;
-  font-family: 'Space Mono', monospace;
-}
-
-h3 {
-  color: var(--cyan);
   font-family: 'Space Mono', monospace;
 }
 
