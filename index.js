@@ -1,3 +1,4 @@
+// Function for typewriter animation in title section
 function typewriter() {
     const typedText = document.querySelector(".typed-text");
     const cursor = document.querySelector(".cursor");
@@ -43,3 +44,8 @@ function typewriter() {
 }
 
 typewriter();
+
+
+// Automatically setting copyright year
+var currentYear = new Date().getFullYear();
+$(".copyright")[0].innerHTML = "© Dron Dasgupta " + currentYear;

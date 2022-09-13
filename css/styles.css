@@ -24,6 +24,7 @@ a {
 
 a:hover {
   color: #eaf6f6;
+  text-decoration: underline;
 }
 
 h1, h2, h3 {
@@ -58,8 +59,8 @@ section:before {
 }
 
 #title .container-fluid {
-  padding: 20% 15% 20%;
-  height: 100vh;
+  padding: 15% 15% 15%;
+  height: calc(100vh - 3.5em);
   max-height: 600px;
 }
 
