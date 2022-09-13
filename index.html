@@ -1,168 +1,187 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>Dron Dasgupta</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Dron Dasgupta</title>
 
-  <!-- Icon -->
-  <link rel="icon" href="favicon.ico">
+    <!-- Icon -->
+    <link rel="icon" href="favicon.ico">
 
-  <!-- Bootstrap Styles -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Bootstrap Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-  <!-- Title -->
-
-  <section id="title">
-
-    <div class="container-fluid">
-
-      <h2>Hello, I'm Dron Dasgupta</h2>
-      <h1>I am a <span class="typed-text"></span><span class="cursor blink">&nbsp;</span></h1>
-
-    </div>
-
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <div class="container-fluid">
-      <h2>Project Highlights</h2>
-      <p>You can find some of my prior designs on my <a href="https://github.com/Blu3Meteor?tab=repositories">GitHub</a>
-        page.</p>
-    </div>
-  
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h3 class="project-text">TinDog Site (Landing Page Showcase)</h3>
-          <a href="https://blu3meteor.github.io/TinDog-website/" target="_blank" rel="noopener noreferrer"><img
-              class="project-image" src="images/tindog-site.png" alt="tindog-website"></a>
-          <p><em>Website incorportating HTML, some advanced CSS and Bootstrap to test design concepts,
-              viewport-responsiveness and other features.</em></p>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h3 class="project-text">Drum Kit Site (JavaScript)</h3>
-          <a href="https://blu3meteor.github.io/drum-kit/" target="_blank" rel="noopener noreferrer"><img
-              class="project-image" src="images/drum-kit-site.png" alt="drum-kit-website"></a>
-          <p><em>A website for a drum kit to implement and test my JavaScript knowledge. Learned about event listeners,
-              higher-order and callback
-              functions, and timeouts.</em></p>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h3 class="project-text">Simon Game Website (jQuery and JavaScript)</h3>
-          <a href="https://blu3meteor.github.io/Simon-game-website/" target="_blank" rel="noopener noreferrer"><img
-              class="project-image" src="images/simon-game-website.png" alt="simon-game-website"></a>
-          <p><em>A simple game website made to enhance my knowledge of jQuery.</em></p>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h3 class="project-text">Newsletter Signup Page (Sample Signup / Login page)</h3>
-          <a href="https://blu3meteor-signup-page.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img
-              class="project-image" src="images/newsletter-signup-site.png" alt="newsletter-signup-site"></a>
-          <p><em>A sample signup / login page created using Node and Express that connects to a database managed by an
-              external API (in this case MailChimp).</em></p>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h3 class="project-text">To-do List Website</h3>
-          <a href="https://blu3meteor-todo-list.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img
-              class="project-image" src="images/todo-list-site.png" alt="todo-list-site"></a>
-          <p><em>A simple To-Do List website created using Node and Express</em></p>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+    
+        <a class="navbar-brand" href="">Dron Dasgupta</a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#projects">Highlights</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+          </ul>
         </div>
       </div>
-  
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
+    </nav>
 
-  <!-- About Me -->
+    <!-- Title -->
+    <section id="title">
+      <div class="container-fluid">
 
-  <section id="about-me">
-
-    <div class="container-fluid">
-      <h2>About Me</h2>
-      <p>I'm a student of Computer Science and Engineering specializing in Artificial Intelligence 
-        and Machine Learning. Aside from my coursework, I'm learning Data Science, Web Development and
-      Cybersecurity on my own via coding projects and events.</p>
-      <h3>My Interests</h3>
-      <div class="row">
-
-        <div class="col-lg-4">
-          <h4>Coding and programming</h4>
-          <img src="images/code.png" alt="code-img" class="interest-img">
-          <p>Skilled in HTML5, CSS3, JavaScript ES6, C, C++, Java, Python, PHP and MySQL. My main area of focus is
-            Data Science and Computer Vision.
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Reading and writing stories</h4>
-          <img src="images/writing.png" alt="writing-img" class="interest-img">
-          <p>In my spare time, I like writing original stories as well as fanfiction. You can check out my work on <a href="https://www.wattpad.com/user/Team-SRDS">Wattpad</a>.</p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Piano</h4>
-          <img src="images/piano.png" alt="piano-img" class="interest-img">
-          <p>I also like to play some of my favourite music pieces on my keyboard!</p>
-        </div>
+        <h2>Hello, I'm Dron Dasgupta</h2>
+        <h1>I am a <span class="typed-text"></span><span class="cursor blink">&nbsp;</span></h1>
 
       </div>
 
-    </div>
+    </section>
 
-  </section>
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container-fluid">
+        <h2>Projects</h2>
+        <p>You can browse some of my highlights here, browse my portfolio page or my <a href="https://github.com/Blu3Meteor?tab=repositories">GitHub page.</a></p>
+      </div>
+    
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h3 class="project-text">TinDog Site (Landing Page Showcase)</h3>
+            <a href="https://blu3meteor.github.io/TinDog-website/" target="_blank" rel="noopener noreferrer"><img
+                class="project-image" src="images/tindog-site.png" alt="tindog-website"></a>
+            <p><em>Website incorportating HTML, some advanced CSS and Bootstrap to test design concepts,
+                viewport-responsiveness and other features.</em></p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h3 class="project-text">Drum Kit Site (JavaScript)</h3>
+            <a href="https://blu3meteor.github.io/drum-kit/" target="_blank" rel="noopener noreferrer"><img class="project-image"
+                src="images/drum-kit-site.png" alt="drum-kit-website"></a>
+            <p><em>A website for a drum kit to implement and test my JavaScript knowledge. Learned about event listeners,
+                higher-order and callback
+                functions, and timeouts.</em></p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h3 class="project-text">Simon Game Website (jQuery and JavaScript)</h3>
+            <a href="https://blu3meteor.github.io/Simon-game-website/" target="_blank" rel="noopener noreferrer"><img
+                class="project-image" src="images/simon-game-website.png" alt="simon-game-website"></a>
+            <p><em>A simple game website made to enhance my knowledge of jQuery.</em></p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h3 class="project-text">Newsletter Signup Page (Sample Signup / Login page)</h3>
+            <a href="https://blu3meteor-signup-page.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img
+                class="project-image" src="images/newsletter-signup-site.png" alt="newsletter-signup-site"></a>
+            <p><em>A sample signup / login page created using Node and Express that connects to a database managed by an
+                external API (in this case MailChimp).</em></p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h3 class="project-text">To-do List Website</h3>
+            <a href="https://blu3meteor-todo-list.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img
+                class="project-image" src="images/todo-list-site.png" alt="todo-list-site"></a>
+            <p><em>A simple To-Do List website created using Node and Express</em></p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-  <!-- Contact Form -->
+    <!-- About Me -->
 
-  <section id="contact-me">
+    <section id="about-me">
 
-    <div class="container-fluid">
-      
-    </div>
+      <div class="container-fluid">
+        <h2>About Me</h2>
+        <p>I'm a student of Computer Science and Engineering specializing in Artificial Intelligence 
+          and Machine Learning. Aside from my coursework, I'm learning Data Science, Web Development and
+        Cybersecurity on my own via coding projects and events.</p>
+        <h3>My Interests</h3>
+        <div class="row">
 
-  </section>
+          <div class="col-lg-4">
+            <h4>Coding and programming</h4>
+            <img src="images/code.png" alt="code-img" class="interest-img">
+            <p>Skilled in HTML5, CSS3, JavaScript ES6, C, C++, Java, Python, PHP and MySQL. My main area of focus is
+              Data Science and Computer Vision.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Reading and writing stories</h4>
+            <img src="images/writing.png" alt="writing-img" class="interest-img">
+            <p>In my spare time, I like writing original stories as well as fanfiction. You can check out my work on <a href="https://www.wattpad.com/user/Team-SRDS">Wattpad</a>.</p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Piano</h4>
+            <img src="images/piano.png" alt="piano-img" class="interest-img">
+            <p>I also like to play some of my favourite music pieces on my keyboard!</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
 
 
-  <!-- Footer -->
-  <section id="footer">
+    <!-- Footer -->
+    <section id="footer">
 
-    <div class="container-fluid">
-      <p>Icons made by:</p>
-      <li><a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
-      <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
-      <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+      <div class="container-fluid">
+        <p>Icons made by:</p>
+        <li><a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+        <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+        <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
 
-      <p class="copyright">© Dron Dasgupta 2022</p>
-  </section>
+        <p class="copyright"></p>
+    </section>
 
-  <!-- Bootstrap Scripts -->
+    <!-- jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="index.js"></script>
 
-  <script src="index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-</body>
+    
+
+  </body>
 
 </html>
