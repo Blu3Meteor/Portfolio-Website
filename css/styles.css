@@ -50,6 +50,18 @@ section:before {
 
 /******************ClASS SELECTORS******************/
 
+.card {
+  width: 18rem;
+  background-color: var(--dark2);
+  margin: 4% 0 4%;
+  align-self: center;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
 .carousel-indicators {
   bottom: -50px;
 }
@@ -99,12 +111,13 @@ section:before {
 }
 
 .interest-img {
-  width: 20%;
+  width: 40%;
   margin: 5%;
+  align-self: center;
 }
 
 .interest-img:hover {
-  width: 25%;
+  width: 45%;
 }
 
 /* Navigation Bar */
