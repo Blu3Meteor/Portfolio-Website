@@ -57,9 +57,17 @@ section:before {
   align-self: center;
 }
 
+.card-header {
+  background-color: var(--dark);
+}
+
 .card-img-top {
   max-width: 100%;
   height: auto;
+}
+
+.interest-desc {
+  line-height: 1.5rem;
 }
 
 .carousel-indicators {
@@ -168,7 +176,7 @@ section:before {
 }
 
 #about-me {
-  padding: 2% 0 3%;
+  padding: 2% 0 3% 0;
   background-color: var(--light);
 }
 
