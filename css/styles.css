@@ -101,6 +101,7 @@ section:before {
   animation: blink 0.8s ease-in-out infinite;
 }
 
+
 .github-link {
   color: var(--cyan);
 }
