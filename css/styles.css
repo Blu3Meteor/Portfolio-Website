@@ -109,19 +109,6 @@ section:before {
   line-height: 1.5rem;
 }
 
-@keyframes blink {
-
-  0%,
-  100% {
-    background: var(--teal);
-  }
-
-  40%,
-  50% {
-    background: transparent;
-  }
-}
-
 .interests {
   padding-top: 3%;
 }
@@ -133,7 +120,7 @@ section:before {
 }
 
 .interest-img:hover {
-  width: 45%;
+  transform: scale(1.15);
 }
 
 /* Navigation Bar */
@@ -196,4 +183,19 @@ section:before {
 #footer {
   background-color: var(--light2);
   padding: 20px 0 0;
+}
+
+
+/****************** KEYFRAMES ******************/
+@keyframes blink {
+
+  0%,
+  100% {
+    background: var(--teal);
+  }
+
+  40%,
+  50% {
+    background: transparent;
+  }
 }
