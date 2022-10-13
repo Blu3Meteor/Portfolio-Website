@@ -1,24 +1,24 @@
 /* Selectors are sorted by type, and then alphabetical order*/
 :root {
-  --dark: #212121;
-  --dark2: #222831;
-  --light: #393e46;
-  --light2: #686d76;
+  --dark: #000000;
+  --dark2: #5C2E7E;
+  --light: #4C6793;
+  --light2: #8BBCCC;
   --teal: #008080;
   --cyan: #19d3da;
 }
 
 /******************TAG SELECTORS******************/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #ebecf1;
   text-align: center;
   min-height: 75rem;
 }
 
 a {
-  color: #41aea9;
-  font-family: 'Open Sans', sans-serif;
+  color: var(--dark2);
+  font-family: 'Ubuntu', sans-serif;
   text-decoration: none;
 }
 
@@ -66,10 +66,6 @@ section:before {
   height: auto;
 }
 
-.interest-desc {
-  line-height: 1.5rem;
-}
-
 .carousel-indicators {
   bottom: -50px;
 }
@@ -105,6 +101,14 @@ section:before {
   animation: blink 0.8s ease-in-out infinite;
 }
 
+.github-link {
+  color: var(--cyan);
+}
+
+.interest-desc {
+  line-height: 1.5rem;
+}
+
 @keyframes blink {
 
   0%,
@@ -116,6 +120,10 @@ section:before {
   50% {
     background: transparent;
   }
+}
+
+.interests {
+  padding-top: 3%;
 }
 
 .interest-img {
@@ -165,19 +173,24 @@ section:before {
   width: 60%;
 }
 
+.profpic {
+  margin: 3% 0;
+  width: 15%;
+}
+
 /******************ID SELECTORS******************/
 #title {
-  background-color: var(--dark);
+  background-image: -webkit-linear-gradient(var(--dark), var(--dark2));
 }
 
 #projects {
   padding: 3% 0;
-  background-color: var(--dark2);
+  background-image: -webkit-linear-gradient(var(--dark2), var(--light));
 }
 
 #about-me {
   padding: 2% 0 3% 0;
-  background-color: var(--light);
+  background-image: -webkit-linear-gradient(var(--light), var(--light2));
 }
 
 #footer {
