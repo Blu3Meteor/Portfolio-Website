@@ -9,13 +9,6 @@
 }
 
 /******************TAG SELECTORS******************/
-body {
-  font-family: 'Ubuntu', sans-serif;
-  color: #ebecf1;
-  text-align: center;
-  min-height: 75rem;
-}
-
 a {
   color: var(--dark2);
   font-family: 'Ubuntu', sans-serif;
@@ -25,6 +18,13 @@ a {
 a:hover {
   color: #eaf6f6;
   text-decoration: underline;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #ebecf1;
+  text-align: center;
+  min-height: 75rem;
 }
 
 h1, h2, h3 {
@@ -49,6 +49,17 @@ section:before {
 }
 
 /******************ClASS SELECTORS******************/
+.buttons {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.buttons button {
+  min-width: 5%;
+  margin: 0.5%;
+}
 
 .card {
   width: 18rem;
@@ -82,6 +93,10 @@ section:before {
 
 #id .container-fluid p {
   padding: 7% 15% 5%;
+}
+
+.col {
+  padding: 12px;
 }
 
 .copyright {
